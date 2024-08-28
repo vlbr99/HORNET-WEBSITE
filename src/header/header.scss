@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    top: 0;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            background: -webkit-linear-gradient(#4ec67e, #4fc67f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 4rem;
+        }
+
+        img {
+            width: 100px;
+        }
+
+    }
+
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+    }
+}
